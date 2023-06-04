@@ -5,3 +5,4 @@ install:
   - npm install
 script:
   - PORT=0 npm test
+dist: focal
