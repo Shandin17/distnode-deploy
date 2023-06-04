@@ -6,7 +6,7 @@ module.exports = class Recipe {
 
     async hydrate() {
         await new Promise(resolve => setTimeout(resolve, 1000));
-        this.name = `Recipe: ${this.id}`;
+        this.name = `Recipe: #${this.id}`;
     }
 
     toJSON() {

@@ -1,7 +1,8 @@
 language: node_js
 node_js:
-  - "18"
+  - "lts/*"
 install:
   - npm install
 script:
   - PORT=0 npm test
+dist: focal
